@@ -1,0 +1,17 @@
+# Downloaded MoneyPuck shot data (fetched by download_nhl_data.py, not committed)
+data/shots_*.csv
+data/shots_*.zip
+
+# Derived feature table (regenerate with feature_engineering.py)
+data/model_features.csv
+
+# data/game_dates.csv is small and committed (built by scripts/fetch_game_dates.py)
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS
+.DS_Store
